@@ -26,7 +26,7 @@ _PROBLEMS_FOLDER = flags.DEFINE_string(
     "The path to the problems folder.",
     required=True,
 )
-_TESTBENCH_GENERATION_TIMEOUT_SECONDS = 5 * 60
+_TESTBENCH_GENERATION_TIMEOUT_SECONDS = 15 * 60
 
 
 def main(argv: Sequence[str]) -> None:
